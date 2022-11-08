@@ -49,6 +49,7 @@ function App() {
         </>
       )
       }
+      <div className="">Made with Jahed Ahmed Ripon </div>
     </div>
   );
 }
