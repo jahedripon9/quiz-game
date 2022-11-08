@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import { questions } from './questions';
@@ -26,7 +25,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="app">
       {showScore ? (
         <section className='showScore-section'>
           Your score is {score} out of {questions.length}
