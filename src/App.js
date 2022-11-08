@@ -29,6 +29,7 @@ function App() {
       {showScore ? (
         <section className='showScore-section'>
           Your score is {score} out of 50
+          <a  href="/home"><button className='reset' type="reset">Reset</button></a>
         </section>
       ): (
         <>
