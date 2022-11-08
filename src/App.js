@@ -11,7 +11,7 @@ function App() {
 
   const handleClick = (isCorrect) => {
     if (isCorrect) {
-      setScore(score + 1);
+      setScore(score + 10);
     }
 
     const nextQuestion = currentQuestion + 1;
@@ -28,7 +28,7 @@ function App() {
     <div className="app">
       {showScore ? (
         <section className='showScore-section'>
-          Your score is {score} out of {questions.length}
+          Your score is {score} out of 50
         </section>
       ): (
         <>

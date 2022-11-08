@@ -96,7 +96,9 @@ button {
     padding: 5px;
     width: 90%;
   }
-
+  .made{
+    font-size: 12px;
+  }
   h1 {
     font-size: 25px;
   }
