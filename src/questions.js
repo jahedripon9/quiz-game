@@ -10,7 +10,7 @@ export const questions = [
         ],
     },
     {
-        questionText: "পবিত্র কুরআনুল কারীমের সবচেয়ে বড় আয়াত কোনটি?",
+        questionText: "পবিত্র কুরআনুল কারীমের সবচেয়ে বড় আয়াত কোন সূরাতে?",
         answerOptions: [
             {answerText: "সূরা আলে ইমরান ", isCorrect:false},
             {answerText: "সূরা আন নিসা ", isCorrect:false},

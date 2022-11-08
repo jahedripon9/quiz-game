@@ -49,7 +49,7 @@ function App() {
         </>
       )
       }
-      <div className="">Made with Jahed Ahmed Ripon </div>
+      <div className="made">&copy; Jahed Ahmed Ripon </div>
     </div>
   );
 }
